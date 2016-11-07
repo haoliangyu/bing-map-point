@@ -1,0 +1,45 @@
+{
+  "name": "bing-point-encoder",
+  "version": "1.0.0",
+  "description": "encode and decode points for Bing Map API",
+  "main": "dist/bing-point-encoder.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "gulp compile",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoliangyu/bing-point-encoder.git"
+  },
+  "keywords": [
+    "bing",
+    "api",
+    "point",
+    "compress",
+    "encode",
+    "decode"
+  ],
+  "author": "Haoliang Yu <haholiang.yu@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haoliangyu/bing-point-encoder/issues"
+  },
+  "homepage": "https://github.com/haoliangyu/bing-point-encoder#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.9.1",
+    "eslint-plugin-json": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cached": "^1.1.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-optimize-js": "^1.1.0",
+    "gulp-spawn-mocha": "^3.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.2",
+    "run-sequence": "^1.2.2"
+  }
+}
